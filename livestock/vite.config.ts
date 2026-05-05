@@ -3,7 +3,6 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/sk-livestock-web/",
+  base: "/",
   plugins: [tailwindcss(), reactRouter()],
-  
 });
