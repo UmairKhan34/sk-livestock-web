@@ -519,17 +519,17 @@ export default function Home() {
           <h2 className="advantages-title">Result oriented platform that moves your life forward.</h2>
           <div className="advantages-grid">
             <div className="adv-card">
-              <img src="images/advantage-outcome.svg" alt="" className="adv-icon" />
+              <img src="/images/advantage-outcome.svg" alt="" className="adv-icon" />
               <h4 className="adv-title">Receive Outcome</h4>
               <p className="adv-desc">Get the best outcome for your efforts</p>
             </div>
             <div className="adv-card">
-              <img src="images/advantage-progress.svg" alt="" className="adv-icon" />
+              <img src="/images/advantage-progress.svg" alt="" className="adv-icon" />
               <h4 className="adv-title">Business Progress</h4>
               <p className="adv-desc">Business progress with modern technology</p>
             </div>
             <div className="adv-card">
-              <img src="images/advantage-performance.svg" alt="" className="adv-icon" />
+              <img src="/images/advantage-performance.svg" alt="" className="adv-icon" />
               <h4 className="adv-title">Performance</h4>
               <p className="adv-desc">Consistent speed, zero interruptions.</p>
             </div>
@@ -643,7 +643,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="images/google-play-badge.svg" alt="Google Play" />
+              <img src="/images/google-play-badge.svg" alt="Google Play" />
             </a>
             <a
               href="https://apps.apple.com/pk/app/s-k-livestock/id6754009240"
@@ -651,7 +651,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="images/app-store-badge.svg" alt="App Store" />
+              <img src="/images/app-store-badge.svg" alt="App Store" />
             </a>
             <a
               href="https://app.sklivestock.net"
@@ -710,7 +710,7 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="images/google-play-badge.svg" alt="Google Play" />
+                <img src="/images/google-play-badge.svg" alt="Google Play" />
               </a>
               <a
                 href="https://apps.apple.com/pk/app/s-k-livestock/id6754009240"
@@ -718,7 +718,7 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="images/app-store-badge.svg" alt="App Store" />
+                <img src="/images/app-store-badge.svg" alt="App Store" />
               </a>
             </div>
 
