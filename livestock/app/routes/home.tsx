@@ -13,37 +13,37 @@ const HERO_SLIDES = [
     eyebrow: "Marketplace",
     title: "Buy & sell livestock across Pakistan",
     desc: "Bulls, buffaloes, cows, goats, sheep and camels in one trusted digital marketplace.",
-    img: "/images/live-animals-ads.png",
+    img: "images/live-animals-ads.png",
   },
   {
     eyebrow: "Meat & Offal",
     title: "Fresh supply for exporters and local buyers",
     desc: "Connect with reliable sellers for halal meat, offal, qurbani and daily trade needs.",
-    img: "/images/home_one.png",
+    img: "images/home_one.png",
   },
   {
     eyebrow: "Qurbani",
     title: "Find qurbani animals without the market chaos",
     desc: "Browse animals, compare listings and contact sellers directly from the SK Livestock app.",
-    img: "/images/demand.png",
+    img: "images/demand.png",
   },
   {
     eyebrow: "Dairy & Farm",
     title: "Milking animals, pregnant animals and equipment",
     desc: "A focused place for dairy farmers to find animals, tools and farm essentials faster.",
-    img: "/images/market-hd.png",
+    img: "images/market-hd.png",
   },
   {
     eyebrow: "Animal Health",
     title: "Doctors, nutritionists and herd care support",
     desc: "Connect with experts for feeding plans, medicine guidance, vaccination and consultancy.",
-    img: "/images/consultancy-active-ads.jpeg",
+    img: "images/consultancy-active-ads.jpeg",
   },
   {
     eyebrow: "Nutrition",
     title: "Wanda, forages and additives for better performance",
     desc: "Source feed products that support growth, digestion, immunity and milk production.",
-    img: "/images/wanda.png",
+    img: "images/wanda.png",
   },
 ];
 
@@ -58,7 +58,7 @@ const FEATURES_TABS = [
       { title: "New Listings", desc: "Daily new listings for you to choose from." },
     ],
     body: "Being a buyer, you can create your demand list of livestock according to your demand. Your demand list will be visible to all the sellers and whosoever seller has your desired livestock; he can directly contact you.",
-    img: "/images/live-animals-ads.png",
+    img: "images/live-animals-ads.png",
   },
   {
     num: "02",
@@ -91,7 +91,7 @@ const FEATURES_TABS = [
       { title: "Language Selection", desc: "English or Urdu, you choose it." },
     ],
     body: "Free, instant and easy sign-up to create your SK Livestock profile. Switch between seller and buyer roles with a tap from the same profile.",
-    img: "/images/profile-screen.png",
+    img: "images/profile-screen.png",
   },
   {
     num: "05",
@@ -102,7 +102,7 @@ const FEATURES_TABS = [
       { title: "Consultant Details", desc: "View animal type, qualification, expertise, experience, and other information." },
     ],
     body: "SK Livestock consultancy helps users connect with the right experts for animal health, nutrition, and farm guidance. After selecting onsite or online consultancy, users can explore consultant details including animal type, qualification, expertise, experience, and other useful information.",
-    img: "/images/consultancy-active-ads.jpeg",
+    img: "images/consultancy-active-ads.jpeg",
   },
 ];
 
@@ -229,7 +229,7 @@ export default function Home() {
         <div className="nav-inner">
           <a href="#overview" className="nav-logo-link" onClick={e => { e.preventDefault(); scrollTo("overview"); }}>
             <img
-              src="/images/SKL-Vertical-logo.png"
+              src="images/SKL-Vertical-logo.png"
               alt="SK Livestock"
               className="nav-logo-img"
             />
@@ -333,7 +333,7 @@ export default function Home() {
             <strong>{activeHeroSlide.title}</strong>
           </div>
           <img src="images/Cow-and-calf-SKL.png" alt="SK Livestock" className="hero-cow-img" />
-          <img src="/images/home.png" alt="App Home Screen" className="hero-phone-img" />
+          <img src="images/home.png" alt="App Home Screen" className="hero-phone-img" />
         </div>
       </section>
 
@@ -494,19 +494,19 @@ export default function Home() {
               <div className="hiw-step-num">01</div>
               <h4 className="hiw-step-title">Transform the Way You Manage Everything.</h4>
               <p className="hiw-step-body">SK Livestock centralizes your livestock trading, giving you full control over listings, buyers, and sellers. Simplify your routines and get real-time insights guide better decisions.</p>
-              <img src="/images/market-hd.png" alt="Step 1" className="hiw-step-img" />
+              <img src="images/market-hd.png" alt="Step 1" className="hiw-step-img" />
             </div>
             <div className="hiw-step">
               <div className="hiw-step-num">02</div>
               <h4 className="hiw-step-title">Unlock Full Visibility and Control with SK Livestock.</h4>
               <p className="hiw-step-body">Monitor, analyze, and optimize every livestock transaction through SK Livestock's intuitive interface. Gain deeper insights, connect with buyers and sellers, and experience total marketplace harmony.</p>
-              <img src="/images/supply.png" alt="Step 2" className="hiw-step-img" />
+              <img src="images/supply.png" alt="Step 2" className="hiw-step-img" />
             </div>
             <div className="hiw-step">
               <div className="hiw-step-num">03</div>
               <h4 className="hiw-step-title">ACCURACY — Transform the way you manage data</h4>
               <p className="hiw-step-body">From automating daily tasks to ensuring precise, real-time insights, our platform helps people stay accurate, efficient, and fully in control of their livestock trading operations.</p>
-              <img src="/images/demand-details.png" alt="Step 3" className="hiw-step-img" />
+              <img src="images/demand-details.png" alt="Step 3" className="hiw-step-img" />
             </div>
           </div>
         </div>
@@ -609,7 +609,7 @@ export default function Home() {
               <p>+92 300 00 22 755</p>
             </div>
             <a href="#contact" className="footer-touch-btn" onClick={e => { e.preventDefault(); scrollTo("contact"); }}>Get In Touch</a>
-            <img src="/images/SKL-Vertical-logo.png" alt="SK Livestock" className="footer-logo" />
+            <img src="images/SKL-Vertical-logo.png" alt="SK Livestock" className="footer-logo" />
           </div>
 
           <div className="footer-column">
@@ -620,8 +620,8 @@ export default function Home() {
               ))}
             </nav>
             <div className="footer-policy-links">
-              <a href="/terms-and-conditions" className="footer-link">Terms &amp; Conditions</a>
-              <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
+              <a href="terms-and-conditions" className="footer-link">Terms &amp; Conditions</a>
+              <a href="privacy-policy" className="footer-link">Privacy Policy</a>
             </div>
           </div>
 
