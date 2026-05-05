@@ -2,5 +2,5 @@ import type { Config } from "@react-router/dev/config";
 
 export default {
   ssr: false,
-  basename: "/sk-livestock-web",
+  basename: "/",
 } satisfies Config;

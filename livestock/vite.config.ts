@@ -4,5 +4,8 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   base: "/",
-  plugins: [tailwindcss(), reactRouter()],
+  plugins: [
+    tailwindcss(),
+    reactRouter(),
+  ],
 });
