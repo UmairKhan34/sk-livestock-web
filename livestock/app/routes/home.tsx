@@ -118,7 +118,7 @@ export function meta({}: Route.MetaArgs) {
           "https://play.google.com/store/apps/details?id=com.sk.livestock",
           "https://apps.apple.com/pk/app/s-k-livestock/id6754009240",
         ],
-        "screenshot": `${SITE_URL}/images/home.png`,
+        "screenshot": `${SITE_URL}/images/home-opt.jpg`,
         "publisher": {
           "@type": "Organization",
           "name": "SK Livestock",
@@ -290,7 +290,7 @@ export function meta({}: Route.MetaArgs) {
             "name": "Download the SK Livestock App",
             "text":
               "Download the SK Livestock app for free from Google Play Store (Android) or Apple App Store (iOS). Search for 'SK Livestock' in either store.",
-            "image": `${SITE_URL}/images/home.png`,
+            "image": `${SITE_URL}/images/home-opt.jpg`,
             "position": 1,
           },
           {
@@ -298,7 +298,7 @@ export function meta({}: Route.MetaArgs) {
             "name": "Create a Free Account",
             "text":
               "Register for free using your phone number or social login. Select whether you are a buyer or seller and provide your contact details. Registration is 100% free.",
-            "image": `${SITE_URL}/images/profile-screen.png`,
+            "image": `${SITE_URL}/images/profile-screen-opt.jpg`,
             "position": 2,
           },
           {
@@ -306,7 +306,7 @@ export function meta({}: Route.MetaArgs) {
             "name": "Browse Listings or Post Your Animal",
             "text":
               "As a buyer, browse thousands of livestock listings — bakra, goat, cow, buffalo, camel, sheep — from verified sellers across Pakistan. As a seller, post your animal listing for free with photos and details.",
-            "image": `${SITE_URL}/images/live-animals-ads.png`,
+            "image": `${SITE_URL}/images/live-animals-ads-opt.jpg`,
             "position": 3,
           },
           {
@@ -314,7 +314,7 @@ export function meta({}: Route.MetaArgs) {
             "name": "Connect with Buyers or Sellers",
             "text":
               "Use in-app messaging to contact verified buyers or sellers directly. Get real-time notifications, close deals securely, and enjoy fraud protection.",
-            "image": `${SITE_URL}/images/market.png`,
+            "image": `${SITE_URL}/images/market-opt.jpg`,
             "position": 4,
           },
         ],
@@ -461,37 +461,37 @@ const HERO_SLIDES = [
     eyebrow: "Marketplace",
     title: "Buy & sell livestock across Pakistan",
     desc: "Bulls, buffaloes, cows, goats, sheep and camels in one trusted digital marketplace.",
-    img: "images/live-animals-ads.png",
+    img: "images/live-animals-ads-opt.jpg",
   },
   {
     eyebrow: "Meat & Offal",
     title: "Fresh supply for exporters and local buyers",
     desc: "Connect with reliable sellers for halal meat, offal, qurbani and daily trade needs.",
-    img: "images/home_one.png",
+    img: "images/home-one-opt.jpg",
   },
   {
     eyebrow: "Qurbani",
     title: "Find qurbani animals without the market chaos",
     desc: "Browse animals, compare listings and contact sellers directly from the SK Livestock app.",
-    img: "images/demand.png",
+    img: "images/demand-opt.jpg",
   },
   {
     eyebrow: "Dairy & Farm",
     title: "Milking animals, pregnant animals and equipment",
     desc: "A focused place for dairy farmers to find animals, tools and farm essentials faster.",
-    img: "images/market-hd.png",
+    img: "images/market-hd-opt.jpg",
   },
   {
     eyebrow: "Animal Health",
     title: "Doctors, nutritionists and herd care support",
     desc: "Connect with experts for feeding plans, medicine guidance, vaccination and consultancy.",
-    img: "images/consultancy-active-ads.jpeg",
+    img: "images/consultancy-active-ads-opt.jpg",
   },
   {
     eyebrow: "Nutrition",
     title: "Wanda, forages and additives for better performance",
     desc: "Source feed products that support growth, digestion, immunity and milk production.",
-    img: "images/wanda.png",
+    img: "images/wanda-opt.jpg",
   },
 ];
 
@@ -506,7 +506,7 @@ const FEATURES_TABS = [
       { title: "New Listings", desc: "Daily new listings for you to choose from." },
     ],
     body: "Being a buyer, you can create your demand list of livestock according to your demand. Your demand list will be visible to all the sellers and whosoever seller has your desired livestock; he can directly contact you.",
-    img: "images/live-animals-ads.png",
+    img: "images/live-animals-ads-opt.jpg",
   },
   {
     num: "02",
@@ -517,7 +517,7 @@ const FEATURES_TABS = [
       { title: "Stay Informed", desc: "In-app notifications keep you updated." },
     ],
     body: "Be a smart seller by using this platform for selling your animals. Stay up to date and connected with buyers in real time to sell your animals on priority basis on a good price.",
-    img: "images/seller.png",
+    img: "images/seller-opt.jpg",
   },
   {
     num: "03",
@@ -528,7 +528,7 @@ const FEATURES_TABS = [
       { title: "View Demand", desc: "Securely view the buyer demand." },
     ],
     body: "With our Market feature, you can view live livestock supply and demand in one place. Stay updated with current market activity by seeing which livestock is available for sale and what buyers are actively seeking.",
-    img: "images/market.png",
+    img: "images/market-opt.jpg",
   },
   {
     num: "04",
@@ -539,7 +539,7 @@ const FEATURES_TABS = [
       { title: "Language Selection", desc: "English or Urdu, you choose it." },
     ],
     body: "Free, instant and easy sign-up to create your SK Livestock profile. Switch between seller and buyer roles with a tap from the same profile.",
-    img: "images/profile-screen.png",
+    img: "images/profile-screen-opt.jpg",
   },
   {
     num: "05",
@@ -550,7 +550,7 @@ const FEATURES_TABS = [
       { title: "Consultant Details", desc: "View animal type, qualification, expertise, experience, and other information." },
     ],
     body: "SK Livestock consultancy helps users connect with the right experts for animal health, nutrition, and farm guidance. After selecting onsite or online consultancy, users can explore consultant details including animal type, qualification, expertise, experience, and other useful information.",
-    img: "images/consultancy-active-ads.jpeg",
+    img: "images/consultancy-active-ads-opt.jpg",
   },
 ];
 
@@ -614,6 +614,8 @@ export default function Home() {
   const [navScrolled, setNavScrolled] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
   const [appDrawerOpen, setAppDrawerOpen] = useState(false);
+  const [contactDrawerOpen, setContactDrawerOpen] = useState(false);
+  const [formStatus, setFormStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [visibleWords, setVisibleWords] = useState(0);
   const taglineWords =
     "Pakistan's first trusted digital platform for buying & selling everything related to livestock with ease.".split(
@@ -659,9 +661,12 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (!appDrawerOpen) return;
+    if (!appDrawerOpen && !contactDrawerOpen) return;
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setAppDrawerOpen(false);
+      if (event.key === "Escape") {
+        setAppDrawerOpen(false);
+        setContactDrawerOpen(false);
+      }
     };
     document.body.classList.add("drawer-open");
     window.addEventListener("keydown", onKeyDown);
@@ -669,7 +674,13 @@ export default function Home() {
       document.body.classList.remove("drawer-open");
       window.removeEventListener("keydown", onKeyDown);
     };
-  }, [appDrawerOpen]);
+  }, [appDrawerOpen, contactDrawerOpen]);
+
+  useEffect(() => {
+    if (window.location.pathname === "/contact") {
+      setContactDrawerOpen(true);
+    }
+  }, []);
 
   useEffect(() => {
     const sections = Array.from(
@@ -708,6 +719,47 @@ export default function Home() {
   const scrollTo = (id: string) => {
     setNavOpen(false);
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const openContactDrawer = () => {
+    setNavOpen(false);
+    setFormStatus("idle");
+    setContactDrawerOpen(true);
+  };
+
+  const submitContactForm = async (event: { preventDefault(): void; currentTarget: HTMLFormElement }) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const subject = (form.elements.namedItem("subject") as HTMLInputElement).value;
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+
+    setFormStatus("sending");
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: "YOUR_WEB3FORMS_ACCESS_KEY",
+          name,
+          email,
+          subject: subject || "Website Enquiry — SK Livestock",
+          message,
+          from_name: "SK Livestock Website",
+          replyto: email,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setFormStatus("success");
+        form.reset();
+      } else {
+        setFormStatus("error");
+      }
+    } catch {
+      setFormStatus("error");
+    }
   };
 
   return (
@@ -931,7 +983,7 @@ export default function Home() {
             loading="eager"
           />
           <img
-            src="images/home.png"
+            src="images/home-opt.jpg"
             alt="SK Livestock App Home Screen — Pakistan's #1 Livestock Marketplace"
             className="hero-phone-img"
             width="300"
@@ -992,7 +1044,7 @@ export default function Home() {
           </div>
           <div className="one-app-visuals">
             <img
-              src="images/home_one.png"
+              src="images/home-one-opt.jpg"
               alt="SK Livestock App — Browse live animals, goats, cows, buffaloes, and more across Pakistan"
               className="one-app-phone"
               width="320"
@@ -1256,7 +1308,7 @@ export default function Home() {
           </div>
           <div className="keyfeatures-img">
             <img
-              src="images/connecting.png"
+              src="images/connecting-opt.jpg"
               alt="SK Livestock App — Connecting livestock buyers and sellers across Pakistan"
               width="400"
               height="700"
@@ -1291,7 +1343,7 @@ export default function Home() {
                 SK Livestock centralizes your livestock trading in Pakistan, giving you full control over listings, buyers, and sellers. Simplify your routines and get real-time insights to guide better decisions — whether trading goats, cows, or buffaloes.
               </p>
               <img
-                src="images/market-hd.png"
+                src="images/market-hd-opt.jpg"
                 alt="SK Livestock — Live livestock market Pakistan — buy and sell animals online"
                 className="hiw-step-img"
                 width="320"
@@ -1312,7 +1364,7 @@ export default function Home() {
                 Monitor, analyze, and optimize every livestock transaction through SK Livestock's intuitive interface. Gain deeper insights, connect with buyers and sellers across Pakistan, and experience total marketplace harmony.
               </p>
               <img
-                src="images/supply.png"
+                src="images/supply-opt.jpg"
                 alt="SK Livestock — Livestock supply and demand Pakistan — animals market"
                 className="hiw-step-img"
                 width="320"
@@ -1333,7 +1385,7 @@ export default function Home() {
                 From automating daily tasks to ensuring precise, real-time insights, SK Livestock helps farmers, traders and buyers stay accurate, efficient, and fully in control of their livestock trading operations across Pakistan.
               </p>
               <img
-                src="images/demand-details.png"
+                src="images/demand-details-opt.jpg"
                 alt="SK Livestock — Livestock demand details — create and view animal demand in Pakistan"
                 className="hiw-step-img"
                 width="320"
@@ -1409,10 +1461,10 @@ export default function Home() {
           <p className="faq-sub">
             Can't find the answer you're looking for?{" "}
             <a
-              href="#contact"
+              href="/contact"
               onClick={(e) => {
                 e.preventDefault();
-                scrollTo("contact");
+                openContactDrawer();
               }}
             >
               Contact us
@@ -1457,94 +1509,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ═══ CONTACT ═══ */}
-      <section
-        id="contact"
-        className="contact-section"
-        aria-labelledby="contact-heading"
-        itemScope
-        itemType="https://schema.org/ContactPage"
-      >
-        <div className="contact-inner">
-          <div className="contact-info">
-            <p className="contact-designed">Designed for the Future.</p>
-            <div className="contact-phones" itemProp="telephone">
-              <p>+92 300 00 22 SKL</p>
-              <p>+92 300 00 22 755</p>
-            </div>
-            <h2 className="contact-cta-head" id="contact-heading">
-              Get In Touch
-            </h2>
-          </div>
-          <div className="contact-form-wrap">
-            <p className="contact-form-label">GET IN TOUCH</p>
-            <p className="contact-form-sub">
-              Have questions about buying or selling livestock in Pakistan? Send us a message and our team will contact you.
-            </p>
-            <form
-              className="contact-form"
-              aria-label="Contact SK Livestock"
-              onSubmit={(e) => {
-                e.preventDefault();
-                const f = e.currentTarget;
-                const name = (
-                  f.elements.namedItem("name") as HTMLInputElement
-                ).value;
-                const email = (
-                  f.elements.namedItem("email") as HTMLInputElement
-                ).value;
-                const subject = (
-                  f.elements.namedItem("subject") as HTMLInputElement
-                ).value;
-                const message = (
-                  f.elements.namedItem("message") as HTMLTextAreaElement
-                ).value;
-                const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-                window.location.href = `mailto:customer.care@sklivestock.net?subject=${encodeURIComponent(
-                  subject || "Website Enquiry"
-                )}&body=${encodeURIComponent(body)}`;
-              }}
-            >
-              <input
-                name="name"
-                type="text"
-                placeholder="Your name"
-                className="form-input"
-                required
-                autoComplete="name"
-                aria-label="Your name"
-              />
-              <input
-                name="email"
-                type="email"
-                placeholder="Your email"
-                className="form-input"
-                required
-                autoComplete="email"
-                aria-label="Your email address"
-              />
-              <input
-                name="subject"
-                type="text"
-                placeholder="Subject"
-                className="form-input"
-                aria-label="Message subject"
-              />
-              <textarea
-                name="message"
-                placeholder="Your message (optional)"
-                className="form-textarea"
-                rows={4}
-                aria-label="Your message"
-              />
-              <button type="submit" className="form-submit">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
-
       {/* ═══ FOOTER ═══ */}
       <footer
         className="site-footer"
@@ -1575,11 +1539,11 @@ export default function Home() {
               </p>
             </div>
             <a
-              href="#contact"
+              href="/contact"
               className="footer-touch-btn"
               onClick={(e) => {
                 e.preventDefault();
-                scrollTo("contact");
+                openContactDrawer();
               }}
             >
               Get In Touch
@@ -1626,6 +1590,9 @@ export default function Home() {
               </a>
               <a href="/privacy-policy" className="footer-link">
                 Privacy Policy
+              </a>
+              <a href="/data-deletion" className="footer-link">
+                Data Deletion
               </a>
             </div>
           </div>
@@ -1747,6 +1714,109 @@ export default function Home() {
           </p>
         </div>
       </footer>
+
+      {/* ═══ CONTACT DRAWER ═══ */}
+      {contactDrawerOpen && (
+        <div
+          className="contact-drawer-overlay"
+          role="presentation"
+          onClick={() => setContactDrawerOpen(false)}
+        >
+          <aside
+            className="contact-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="contact-drawer-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="contact-drawer-close"
+              onClick={() => setContactDrawerOpen(false)}
+              aria-label="Close contact form"
+            >
+              ×
+            </button>
+            <p className="contact-designed">Designed for the Future.</p>
+            <div className="contact-phones" itemProp="telephone">
+              <p>+92 300 00 22 SKL</p>
+              <p>+92 300 00 22 755</p>
+            </div>
+            <p className="contact-form-label">GET IN TOUCH</p>
+            <h2 className="contact-drawer-title" id="contact-drawer-title">
+              Get In Touch
+            </h2>
+            <p className="contact-form-sub">
+              Have questions about buying or selling livestock in Pakistan? Send us a message and our team will contact you.
+            </p>
+            {formStatus === "success" ? (
+              <div className="form-success" role="alert">
+                <strong>Message sent!</strong>
+                <p>Thank you for reaching out. Our team will contact you shortly.</p>
+                <button
+                  type="button"
+                  className="form-submit"
+                  style={{ marginTop: "16px" }}
+                  onClick={() => setFormStatus("idle")}
+                >
+                  Send Another
+                </button>
+              </div>
+            ) : (
+              <form
+                className="contact-form"
+                aria-label="Contact SK Livestock"
+                onSubmit={submitContactForm}
+              >
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Your name"
+                  className="form-input"
+                  required
+                  autoComplete="name"
+                  aria-label="Your name"
+                />
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="Your email"
+                  className="form-input"
+                  required
+                  autoComplete="email"
+                  aria-label="Your email address"
+                />
+                <input
+                  name="subject"
+                  type="text"
+                  placeholder="Subject"
+                  className="form-input"
+                  aria-label="Message subject"
+                />
+                <textarea
+                  name="message"
+                  placeholder="Your message (optional)"
+                  className="form-textarea"
+                  rows={4}
+                  aria-label="Your message"
+                />
+                {formStatus === "error" && (
+                  <p className="form-error" role="alert">
+                    Something went wrong. Please try again or email us directly at customer.care@sklivestock.net
+                  </p>
+                )}
+                <button
+                  type="submit"
+                  className="form-submit"
+                  disabled={formStatus === "sending"}
+                >
+                  {formStatus === "sending" ? "Sending…" : "Send Message"}
+                </button>
+              </form>
+            )}
+          </aside>
+        </div>
+      )}
 
       {/* ═══ APP DOWNLOAD DRAWER ═══ */}
       {appDrawerOpen && (

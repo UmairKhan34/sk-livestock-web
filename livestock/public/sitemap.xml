@@ -25,7 +25,7 @@
       <image:caption>Buy and sell live cattle, cows, calves, buffaloes, goats, and qurbani animals on SK Livestock.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://sklivestock.net/images/live-animals-ads.png</image:loc>
+      <image:loc>https://sklivestock.net/images/live-animals-ads-opt.jpg</image:loc>
       <image:title>SK Livestock app live animal listings</image:title>
       <image:caption>Browse livestock listings including goats, cows, buffaloes, camels, sheep, and cattle in Pakistan.</image:caption>
     </image:image>
@@ -75,6 +75,13 @@
   </url>
 
   <url>
+    <loc>https://sklivestock.net/contact</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
     <loc>https://sklivestock.net/privacy-policy</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>yearly</changefreq>
@@ -84,6 +91,13 @@
   <url>
     <loc>https://sklivestock.net/terms-and-conditions</loc>
     <lastmod>2026-05-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/data-deletion</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

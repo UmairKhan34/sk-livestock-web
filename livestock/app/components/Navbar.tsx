@@ -21,7 +21,7 @@ export default function Navbar() {
           <a href="/#how-it-works" className="nav-link">How It Works</a>
           <a href="/#faq" className="nav-link">FAQ</a>
           <a href="/consultancy" className="nav-link">Consultancy</a>
-          <a href="/#contact" className="btn-primary-red">Contact Us</a>
+          <a href="/contact" className="btn-primary-red">Contact Us</a>
         </div>
       </div>
     </nav>

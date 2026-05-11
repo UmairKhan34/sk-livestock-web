@@ -88,7 +88,10 @@ export function meta({ params }: Route.MetaArgs) {
 
 export default function SeoTopicPage() {
   const params = useParams();
-  const topic = getSeoTopic(params.topic) ?? DEFAULT_TOPIC;
+  const topic = getSeoTopic(params.topic);
+  if (!topic) {
+    throw new Response("Not Found", { status: 404, statusText: "Not Found" });
+  }
   const relatedTopics = SEO_TOPICS.filter((item) => item.slug !== topic.slug);
 
   return (

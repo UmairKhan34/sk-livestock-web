@@ -27,16 +27,16 @@
   ],
   "screenshots": [
     {
-      "src": "/images/home.png",
+      "src": "/images/home-opt.jpg",
       "sizes": "390x844",
-      "type": "image/png",
+      "type": "image/jpeg",
       "platform": "narrow",
       "label": "SK Livestock App Home Screen"
     },
     {
-      "src": "/images/live-animals-ads.png",
+      "src": "/images/live-animals-ads-opt.jpg",
       "sizes": "390x844",
-      "type": "image/png",
+      "type": "image/jpeg",
       "platform": "narrow",
       "label": "Live Animals Marketplace — Buy and Sell Livestock Pakistan"
     }

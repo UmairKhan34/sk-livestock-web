@@ -24,9 +24,10 @@ export default function Footer() {
             <p className="footer-nav-head">Support</p>
             <nav className="footer-nav">
               <a href="/#faq" className="footer-link">FAQ</a>
-              <a href="/#contact" className="footer-link">Contact Us</a>
+              <a href="/contact" className="footer-link">Contact Us</a>
               <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
               <a href="/terms-and-conditions" className="footer-link">Terms &amp; Conditions</a>
+              <a href="/data-deletion" className="footer-link">Data Deletion</a>
             </nav>
           </div>
           <div>

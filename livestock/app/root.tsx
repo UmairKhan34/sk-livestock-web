@@ -156,8 +156,10 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
   let stack: string | undefined;
+  let status = 500;
 
   if (isRouteErrorResponse(error)) {
+    status = error.status;
     message = error.status === 404 ? "404" : "Error";
     details =
       error.status === 404
@@ -168,8 +170,60 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     stack = error.stack;
   }
 
+  if (status === 404) {
+    return (
+      <main className="not-found-page" aria-labelledby="not-found-title">
+        <div className="not-found-grid" aria-hidden="true">
+          {Array.from({ length: 18 }).map((_, index) => (
+            <span key={index} />
+          ))}
+        </div>
+        <div className="not-found-orbit" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+        </div>
+        <section className="not-found-panel">
+          <a href="/" className="not-found-logo-link" aria-label="Go to SK Livestock home">
+            <img
+              src="/images/SKL-Vertical-logo.png"
+              alt="SK Livestock"
+              className="not-found-logo"
+              width="150"
+              height="75"
+            />
+          </a>
+          <p className="not-found-kicker">Page not found</p>
+          <h1 id="not-found-title" className="not-found-title">
+            404
+          </h1>
+          <p className="not-found-copy">
+            This page moved, expired, or never existed. Head back home or open the marketplace.
+          </p>
+          <div className="not-found-actions">
+            <a href="/" className="not-found-primary">
+              Back to Home
+            </a>
+            <a
+              href="https://app.sklivestock.net"
+              className="not-found-secondary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open Web App
+            </a>
+          </div>
+        </section>
+        <div className="not-found-marquee" aria-hidden="true">
+          <span>SK LIVESTOCK • 404 • PAGE NOT FOUND • </span>
+          <span>SK LIVESTOCK • 404 • PAGE NOT FOUND • </span>
+        </div>
+      </main>
+    );
+  }
+
   return (
-    <main className="pt-16 p-4 container mx-auto">
+    <main className="error-page">
       <h1>{message}</h1>
       <p>{details}</p>
       {stack && (
