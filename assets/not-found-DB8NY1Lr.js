@@ -1,0 +1,1 @@
+import{O as e}from"./chunk-QFMPRPBF-DyOdKMR3.js";function t(){return[{title:`Page Not Found — SK Livestock`},{name:`robots`,content:`noindex, follow`}]}var n=e(function(){throw new Response(`Not Found`,{status:404,statusText:`Not Found`})});export{n as default,t as meta};
