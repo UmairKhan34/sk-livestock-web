@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+>
+
+  <url>
+    <loc>https://sklivestock.net/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://sklivestock.net/"/>
+    <xhtml:link rel="alternate" hreflang="ur-PK" href="https://sklivestock.net/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sklivestock.net/"/>
+    <image:image>
+      <image:loc>https://sklivestock.net/images/SKL-Vertical-logo.png</image:loc>
+      <image:title>SK Livestock Pakistan marketplace logo</image:title>
+      <image:caption>SK Livestock helps Pakistan buy and sell goats, cows, buffaloes, camels, sheep, qurbani animals, wanda, and livestock services online.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sklivestock.net/images/Cow-and-calf-SKL.png</image:loc>
+      <image:title>Live cattle for sale in Pakistan on SK Livestock</image:title>
+      <image:caption>Buy and sell live cattle, cows, calves, buffaloes, goats, and qurbani animals on SK Livestock.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sklivestock.net/images/live-animals-ads.png</image:loc>
+      <image:title>SK Livestock app live animal listings</image:title>
+      <image:caption>Browse livestock listings including goats, cows, buffaloes, camels, sheep, and cattle in Pakistan.</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/livestock-pakistan</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/goat-bakra-pakistan</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/qurbani-animals-pakistan</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/cattle-cow-buffalo-pakistan</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/wanda-animal-feed-pakistan</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/veterinary-consultancy-pakistan</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/privacy-policy</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://sklivestock.net/terms-and-conditions</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

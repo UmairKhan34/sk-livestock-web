@@ -1,0 +1,81 @@
+# SK Livestock — Pakistan's #1 Livestock Marketplace
+# https://sklivestock.net
+
+# ── Standard search engines ───────────────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /build/
+Disallow: /*.json$
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ── AI crawlers (GEO — Generative Engine Optimization) ───────────────────────
+# Allowing AI crawlers ensures SK Livestock appears in ChatGPT, Gemini,
+# Claude, Perplexity, and other AI-powered answer engines.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ── Sitemap ───────────────────────────────────────────────────────────────────
+Sitemap: https://sklivestock.net/sitemap.xml
