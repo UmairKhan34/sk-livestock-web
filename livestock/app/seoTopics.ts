@@ -1,0 +1,345 @@
+export const SITE_URL = "https://sklivestock.net";
+export const APP_URL = "https://app.sklivestock.net";
+export const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.sk.livestock";
+export const APP_STORE_URL =
+  "https://apps.apple.com/pk/app/s-k-livestock/id6754009240";
+
+export type SeoTopic = {
+  slug: string;
+  title: string;
+  metaTitle: string;
+  description: string;
+  h1: string;
+  intro: string;
+  keywords: string[];
+  sections: Array<{
+    heading: string;
+    body: string;
+  }>;
+  faqs: Array<{
+    q: string;
+    a: string;
+  }>;
+};
+
+export const SEO_TOPICS: SeoTopic[] = [
+  {
+    slug: "livestock-pakistan",
+    title: "Livestock Pakistan",
+    metaTitle: "Livestock Pakistan | Buy & Sell Animals Online | SK Livestock",
+    description:
+      "Buy and sell livestock online in Pakistan with SK Livestock. Find goats, cows, buffaloes, camels, sheep, qurbani animals, wanda, dairy equipment, and veterinary consultancy.",
+    h1: "Livestock Pakistan: buy and sell animals online",
+    intro:
+      "SK Livestock is a trusted digital marketplace for Pakistan's livestock community. Farmers, traders, exporters, butchers, dairy operators, and families can use the app to find live animals, qurbani animals, animal feed, dairy equipment, and expert consultancy.",
+    keywords: [
+      "livestock Pakistan",
+      "online livestock market Pakistan",
+      "maweshi Pakistan",
+      "janwar online Pakistan",
+      "livestock app Pakistan",
+      "cattle market Pakistan",
+    ],
+    sections: [
+      {
+        heading: "A focused marketplace for livestock buyers and sellers",
+        body:
+          "SK Livestock helps sellers post animals and livestock products while buyers browse supply and create demand. The platform covers goats, cows, buffaloes, camels, sheep, bulls, meat, offal, wanda, forages, medicine, vaccination support, breeders, semen, and dairy equipment.",
+      },
+      {
+        heading: "Built for Pakistan's livestock trade",
+        body:
+          "The marketplace is designed for common Pakistani search terms and needs, including bakra, bakri, gaye, bhains, bail, oont, dumba, bher, qurbani janwar, doodh wali gaay, doodh wali bhains, and maweshi mandi.",
+      },
+      {
+        heading: "Free web and mobile access",
+        body:
+          "Users can launch the SK Livestock web app or download the free Android and iOS apps to browse listings, create a profile, contact sellers, and receive notifications.",
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the best online livestock marketplace in Pakistan?",
+        a:
+          "SK Livestock is a dedicated digital livestock marketplace in Pakistan for buying and selling goats, cows, buffaloes, camels, sheep, qurbani animals, meat, wanda, dairy equipment, and related livestock services.",
+      },
+      {
+        q: "Can I sell livestock online in Pakistan?",
+        a:
+          "Yes. Sellers can use SK Livestock to post livestock listings, reach buyers across Pakistan, and manage buyer contact through the web or mobile app.",
+      },
+      {
+        q: "Which livestock categories are available?",
+        a:
+          "SK Livestock supports live animals, qurbani animals, milking animals, pregnant animals, meat and offal, wanda, forages, feed additives, medicines, vaccinations, breeders, semen, dairy equipment, and consultancy.",
+      },
+    ],
+  },
+  {
+    slug: "goat-bakra-pakistan",
+    title: "Goat and Bakra Pakistan",
+    metaTitle: "Goat & Bakra for Sale in Pakistan | Buy Online | SK Livestock",
+    description:
+      "Find bakra, bakri, goat, dumba, and sheep listings in Pakistan on SK Livestock. Buy and sell goats online for farming, meat, breeding, dairy, and qurbani.",
+    h1: "Goat and bakra for sale in Pakistan",
+    intro:
+      "Looking for bakra online in Pakistan? SK Livestock connects goat buyers with sellers across Pakistan, including listings for bakra, bakri, sheep, dumba, qurbani goats, breeders, and farm animals.",
+    keywords: [
+      "bakra online Pakistan",
+      "goat for sale Pakistan",
+      "bakri for sale",
+      "qurbani bakra",
+      "dumba for sale Pakistan",
+      "goat marketplace Pakistan",
+    ],
+    sections: [
+      {
+        heading: "Buy goats and bakra from real sellers",
+        body:
+          "Browse goat and bakra listings, compare locations and seller details, and contact sellers directly. The platform helps families, farmers, traders, butchers, and qurbani buyers find suitable animals faster.",
+      },
+      {
+        heading: "Sell goats online without depending only on mandi traffic",
+        body:
+          "Goat sellers can post animal details and photos, then receive interest from buyers using the SK Livestock app. This helps sellers reach more people than a single local market visit.",
+      },
+      {
+        heading: "Common Urdu and local search coverage",
+        body:
+          "SK Livestock content is written around how people actually search in Pakistan: bakra, bakri, qurbani ka bakra, janwar, maweshi, dumba, bher, goat price, and goat buy sell Pakistan.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How can I buy bakra online in Pakistan?",
+        a:
+          "Download SK Livestock or open the web app, browse goat and bakra listings, compare available animals, and contact the seller directly through the platform.",
+      },
+      {
+        q: "Can I sell my goat on SK Livestock?",
+        a:
+          "Yes. You can create a free account, add your goat or bakra listing with photos and details, and connect with interested buyers.",
+      },
+      {
+        q: "Does SK Livestock include qurbani goats?",
+        a:
+          "Yes. SK Livestock supports qurbani goat and bakra listings as well as cows, bulls, camels, sheep, and other Eid ul Adha animal categories.",
+      },
+    ],
+  },
+  {
+    slug: "qurbani-animals-pakistan",
+    title: "Qurbani Animals Pakistan",
+    metaTitle: "Qurbani Animals Online in Pakistan | Bakra, Cow, Camel | SK Livestock",
+    description:
+      "Find qurbani animals online in Pakistan. Buy and sell qurbani bakra, cow, bull, camel, sheep, and goats through SK Livestock.",
+    h1: "Qurbani animals online in Pakistan",
+    intro:
+      "SK Livestock helps users find qurbani animals before Eid ul Adha without depending only on crowded animal markets. Buyers can browse sellers and sellers can post qurbani goats, cows, bulls, camels, and sheep.",
+    keywords: [
+      "qurbani animals Pakistan",
+      "qurbani bakra online",
+      "qurbani cow Pakistan",
+      "eid animals Pakistan",
+      "qurbani janwar online",
+      "bakra mandi online",
+    ],
+    sections: [
+      {
+        heading: "Find qurbani animals by category",
+        body:
+          "The platform supports qurbani goats, cows, bulls, camels, sheep, and other live animals. Buyers can browse available supply and contact sellers from the app.",
+      },
+      {
+        heading: "A digital option for Eid livestock planning",
+        body:
+          "Families and overseas Pakistanis can start researching animals earlier, compare sellers, and arrange details directly with sellers instead of waiting until the final rush.",
+      },
+      {
+        heading: "Seller visibility before Eid ul Adha",
+        body:
+          "Farmers and traders can list qurbani animals online so buyers searching for bakra, cow, camel, sheep, and qurbani janwar can discover their supply.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I find qurbani animals on SK Livestock?",
+        a:
+          "Yes. SK Livestock includes qurbani goats, cows, bulls, sheep, camels, and related live animal listings from sellers in Pakistan.",
+      },
+      {
+        q: "Is home delivery available for qurbani animals?",
+        a:
+          "Delivery depends on the individual seller. Buyers should check listing details and confirm delivery options directly with the seller.",
+      },
+      {
+        q: "Can sellers post qurbani animals before Eid?",
+        a:
+          "Yes. Sellers can post qurbani animals before Eid ul Adha to reach buyers searching online for suitable animals.",
+      },
+    ],
+  },
+  {
+    slug: "cattle-cow-buffalo-pakistan",
+    title: "Cattle, Cow and Buffalo Pakistan",
+    metaTitle: "Cow, Cattle & Buffalo for Sale in Pakistan | SK Livestock",
+    description:
+      "Buy and sell cows, bulls, cattle, buffaloes, milking animals, and pregnant animals online in Pakistan with SK Livestock.",
+    h1: "Cow, cattle, and buffalo for sale in Pakistan",
+    intro:
+      "SK Livestock gives Pakistan's cattle and dairy community a digital place to trade cows, bulls, buffaloes, milking animals, pregnant animals, meat animals, and dairy equipment.",
+    keywords: [
+      "cow for sale Pakistan",
+      "buffalo for sale Pakistan",
+      "cattle market Pakistan",
+      "doodh wali gaay",
+      "doodh wali bhains",
+      "bull for sale Pakistan",
+    ],
+    sections: [
+      {
+        heading: "Cattle listings for farmers and traders",
+        body:
+          "Buyers can search for cows, bulls, buffaloes, calves, and milking animals while sellers can make their animals visible to serious buyers across Pakistan.",
+      },
+      {
+        heading: "Dairy-focused marketplace support",
+        body:
+          "SK Livestock also supports dairy equipment, milking animals, pregnant animals, nutrition products, wanda, forages, and consultancy for farmers managing milk production.",
+      },
+      {
+        heading: "Useful for meat, dairy, and breeding needs",
+        body:
+          "The platform helps different livestock use cases, including dairy farms, cattle traders, butchers, exporters, breeders, and families looking for Eid animals.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I buy a cow or buffalo online in Pakistan?",
+        a:
+          "Yes. SK Livestock lets buyers browse cow, bull, cattle, and buffalo listings and contact sellers directly through the web or mobile app.",
+      },
+      {
+        q: "Does SK Livestock support dairy animals?",
+        a:
+          "Yes. The platform includes milking animals, pregnant animals, dairy equipment, wanda, forages, feed additives, and consultancy.",
+      },
+      {
+        q: "Can I post buffalo or cattle listings?",
+        a:
+          "Yes. Sellers can post buffalo, cow, bull, and cattle listings for free through SK Livestock.",
+      },
+    ],
+  },
+  {
+    slug: "wanda-animal-feed-pakistan",
+    title: "Wanda and Animal Feed Pakistan",
+    metaTitle: "Wanda & Animal Feed in Pakistan | Livestock Nutrition | SK Livestock",
+    description:
+      "Buy and sell wanda, forages, feed additives, and livestock nutrition products in Pakistan through SK Livestock.",
+    h1: "Wanda and animal feed in Pakistan",
+    intro:
+      "SK Livestock supports more than animal buying and selling. The platform also helps Pakistan's farmers and suppliers trade wanda, forages, feed additives, and nutrition products for goats, cows, buffaloes, camels, and sheep.",
+    keywords: [
+      "wanda Pakistan",
+      "animal feed Pakistan",
+      "livestock nutrition Pakistan",
+      "feed additives Pakistan",
+      "forages Pakistan",
+      "cattle feed Pakistan",
+    ],
+    sections: [
+      {
+        heading: "What is wanda?",
+        body:
+          "Wanda is a balanced compound animal feed commonly used in Pakistan to support daily livestock nutrition, healthy growth, digestion, immunity, and better milk production.",
+      },
+      {
+        heading: "Feed categories on SK Livestock",
+        body:
+          "The marketplace includes wanda, forages, feed additives, and other nutrition-related products that farmers can discover from sellers and suppliers.",
+      },
+      {
+        heading: "Nutrition support with consultancy",
+        body:
+          "Users can also connect with veterinary doctors and nutritionists for guidance on feeding plans, animal health, vaccination, and farm management.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I buy wanda on SK Livestock?",
+        a:
+          "Yes. SK Livestock supports wanda and animal feed listings from sellers and suppliers in Pakistan.",
+      },
+      {
+        q: "What animals use wanda?",
+        a:
+          "Wanda is commonly used for livestock such as cows, buffaloes, goats, sheep, and other farm animals depending on nutrition needs.",
+      },
+      {
+        q: "Does SK Livestock offer nutrition consultancy?",
+        a:
+          "Yes. SK Livestock connects users with veterinary doctors and nutritionists for online or onsite consultancy.",
+      },
+    ],
+  },
+  {
+    slug: "veterinary-consultancy-pakistan",
+    title: "Veterinary Consultancy Pakistan",
+    metaTitle: "Veterinary Consultancy for Livestock in Pakistan | SK Livestock",
+    description:
+      "Find veterinary doctors and nutritionists for livestock health, feeding, vaccination, and farm guidance in Pakistan with SK Livestock.",
+    h1: "Veterinary consultancy for livestock in Pakistan",
+    intro:
+      "SK Livestock helps farmers and livestock owners connect with veterinary doctors and nutritionists for animal health, nutrition, vaccination awareness, feeding guidance, and farm management support.",
+    keywords: [
+      "veterinary consultancy Pakistan",
+      "livestock doctor Pakistan",
+      "animal nutritionist Pakistan",
+      "livestock vaccination Pakistan",
+      "animal health Pakistan",
+      "vet doctor for goats cows buffalo",
+    ],
+    sections: [
+      {
+        heading: "Online and onsite guidance",
+        body:
+          "Users can choose consultancy options based on their needs and view consultant details such as animal type, qualification, expertise, and experience.",
+      },
+      {
+        heading: "Support for common livestock needs",
+        body:
+          "Consultancy can help with feeding plans, medicine guidance, vaccination awareness, growth, digestion, immunity, milk production, and general herd care.",
+      },
+      {
+        heading: "Connected to the marketplace",
+        body:
+          "Because consultancy sits beside animal listings, feed, forages, medicine, and dairy equipment, users can manage more of their livestock work in one platform.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I find a vet doctor on SK Livestock?",
+        a:
+          "Yes. SK Livestock includes consultancy options for veterinary doctors and nutritionists who support livestock owners and farmers.",
+      },
+      {
+        q: "Is consultancy online or onsite?",
+        a:
+          "SK Livestock supports both online and onsite consultancy options depending on the consultant and user need.",
+      },
+      {
+        q: "What animals can consultancy cover?",
+        a:
+          "Consultancy can support major livestock categories such as goats, cows, buffaloes, camels, sheep, and other farm animals.",
+      },
+    ],
+  },
+];
+
+export const TOPIC_SLUGS = SEO_TOPICS.map((topic) => topic.slug);
+
+export function getSeoTopic(slug?: string) {
+  return SEO_TOPICS.find((topic) => topic.slug === slug);
+}

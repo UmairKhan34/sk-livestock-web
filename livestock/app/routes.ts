@@ -4,4 +4,5 @@ export default [
   index("routes/home.tsx"),
   route("privacy-policy", "routes/privacy-policy.tsx"),
   route("terms-and-conditions", "routes/terms-and-conditions.tsx"),
+  route(":topic", "routes/seo-topic.tsx"),
 ] satisfies RouteConfig;

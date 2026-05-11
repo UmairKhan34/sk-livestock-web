@@ -1,9 +1,15 @@
 import type { Route } from "./+types/privacy-policy";
+import { SITE_URL } from "../seoTopics";
+
+export const links: Route.LinksFunction = () => [
+  { rel: "canonical", href: `${SITE_URL}/privacy-policy` },
+];
 
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Privacy Policy — SK Livestock" },
     { name: "description", content: "Privacy Policy for S.K Livestock app and website." },
+    { name: "robots", content: "index, follow" },
   ];
 }
 

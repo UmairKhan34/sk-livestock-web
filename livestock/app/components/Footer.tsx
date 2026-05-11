@@ -25,8 +25,8 @@ export default function Footer() {
             <nav className="footer-nav">
               <a href="/#faq" className="footer-link">FAQ</a>
               <a href="/#contact" className="footer-link">Contact Us</a>
-              <a href="#" className="footer-link">Privacy Policy</a>
-              <a href="#" className="footer-link">Terms of Use</a>
+              <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
+              <a href="/terms-and-conditions" className="footer-link">Terms &amp; Conditions</a>
             </nav>
           </div>
           <div>

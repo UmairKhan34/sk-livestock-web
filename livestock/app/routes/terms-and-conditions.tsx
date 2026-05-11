@@ -1,9 +1,15 @@
 import type { Route } from "./+types/terms-and-conditions";
+import { SITE_URL } from "../seoTopics";
+
+export const links: Route.LinksFunction = () => [
+  { rel: "canonical", href: `${SITE_URL}/terms-and-conditions` },
+];
 
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Terms & Conditions — SK Livestock" },
     { name: "description", content: "Terms and Conditions for S.K Livestock app and website." },
+    { name: "robots", content: "index, follow" },
   ];
 }
 
