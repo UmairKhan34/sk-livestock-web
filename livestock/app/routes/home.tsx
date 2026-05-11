@@ -783,7 +783,7 @@ export default function Home() {
         <meta itemProp="operatingSystem" content="Android, iOS" />
         <div className="hero-left">
           <p className="hero-kicker" itemProp="description">
-            Pakistan's #1 digital livestock marketplace — buy & sell bakra, goat, cow, buffalo, camel, sheep online
+            Pakistan's digital livestock platform
           </p>
           <h1 className="hero-brand" itemProp="name">S.K Livestock</h1>
 
@@ -801,7 +801,7 @@ export default function Home() {
               className="hero-primary-action"
               target="_blank"
               rel="noreferrer"
-              aria-label="Launch SK Livestock Web App — Pakistan's livestock marketplace"
+              aria-label="SK Livestock Web App — Pakistan's livestock marketplace"
             >
               Web App
             </a>
@@ -1723,7 +1723,7 @@ export default function Home() {
               className="footer-web-app-btn"
               target="_blank"
               rel="noreferrer"
-              aria-label="Launch SK Livestock Web App"
+              aria-label="SK Livestock Web App"
             >
               <span className="web-app-icon" aria-hidden="true">
                 <svg viewBox="0 0 64 64" focusable="false">
@@ -1735,7 +1735,7 @@ export default function Home() {
                 </svg>
               </span>
               <span>
-                <small>Launch</small>
+                <small></small>
                 Web App
               </span>
             </a>
