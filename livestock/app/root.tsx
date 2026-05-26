@@ -126,6 +126,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="application-name" content="SK Livestock" />
         <meta name="msapplication-TileColor" content="#c0392b" />
         <meta name="format-detection" content="telephone=no" />
+        <meta name="facebook-domain-verification" content="p6r6gm2q8kqqiz8wil6p4oeyowrzbk" />
         <Meta />
         <Links />
         {/* Global Organization schema — appears on every page */}
