@@ -1604,7 +1604,7 @@ export default function Home() {
             </p>
             <nav className="footer-link-list" aria-label="SK Livestock social media links">
               <a
-                href="https://www.instagram.com/sklivestock_net/"
+                href="https://www.instagram.com/sklivestockmobile/"
                 className="footer-link"
                 target="_blank"
                 rel="noreferrer"
@@ -1613,7 +1613,7 @@ export default function Home() {
                 Instagram
               </a>
               <a
-                href="https://www.facebook.com/sklivestock.net"
+                href="https://www.facebook.com/sklivestockmobile/"
                 className="footer-link"
                 target="_blank"
                 rel="noreferrer"
@@ -1622,7 +1622,7 @@ export default function Home() {
                 Facebook
               </a>
               <a
-                href="https://www.linkedin.com/company/sklivestock-net"
+                href="https://www.linkedin.com/company/sklivestockmobile/"
                 className="footer-link"
                 target="_blank"
                 rel="noreferrer"
@@ -1631,7 +1631,7 @@ export default function Home() {
                 LinkedIn
               </a>
               <a
-                href="https://www.youtube.com/@sklivestock_net"
+                href="https://www.youtube.com/@sklivestockmobile"
                 className="footer-link"
                 target="_blank"
                 rel="noreferrer"
@@ -1640,7 +1640,7 @@ export default function Home() {
                 YouTube
               </a>
               <a
-                href="https://www.tiktok.com/@sklivestock.net?lang=en"
+                href="https://www.tiktok.com/@sklivestockmobile"
                 className="footer-link"
                 target="_blank"
                 rel="noreferrer"
