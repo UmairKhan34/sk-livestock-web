@@ -47,10 +47,10 @@ const organizationSchema = {
   ],
   "sameAs": [
     "https://www.instagram.com/sklivestock_net/",
-    "https://www.facebook.com/sklivestock.net",
-    "https://www.linkedin.com/company/sklivestock-net",
-    "https://www.youtube.com/@sklivestock_net",
-    "https://www.tiktok.com/@sklivestock.net",
+    "https://www.facebook.com/sklivestockmobile/",
+    "https://www.linkedin.com/company/sklivestockmobile",
+    "https://www.youtube.com/@sklivestockmobile",
+    "https://www.tiktok.com/@sklivestockmobile",
     "https://play.google.com/store/apps/details?id=com.sk.livestock",
     "https://apps.apple.com/pk/app/s-k-livestock/id6754009240"
   ],
