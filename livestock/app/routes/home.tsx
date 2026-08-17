@@ -777,7 +777,7 @@ export default function Home() {
             }}
           >
             <img
-              src="images/SKL-Vertical-logo.png"
+              src="/images/SKL-Vertical-logo.png"
               alt="SK Livestock — Pakistan's #1 Digital Livestock Marketplace"
               className="nav-logo-img"
               width="120"
@@ -975,7 +975,7 @@ export default function Home() {
             <strong>{activeHeroSlide.title}</strong>
           </div>
           <img
-            src="images/Cow-and-calf-SKL.png"
+            src="/images/Cow-and-calf-SKL.png"
             alt="SK Livestock — Cattle for sale in Pakistan — Cow and calf listing"
             className="hero-cow-img"
             width="600"
@@ -983,7 +983,7 @@ export default function Home() {
             loading="eager"
           />
           <img
-            src="images/home-opt.jpg"
+            src="/images/home-opt.jpg"
             alt="SK Livestock App Home Screen — Pakistan's #1 Livestock Marketplace"
             className="hero-phone-img"
             width="300"
@@ -1044,7 +1044,7 @@ export default function Home() {
           </div>
           <div className="one-app-visuals">
             <img
-              src="images/home-one-opt.jpg"
+              src="/images/home-one-opt.jpg"
               alt="SK Livestock App — Browse live animals, goats, cows, buffaloes, and more across Pakistan"
               className="one-app-phone"
               width="320"
@@ -1112,7 +1112,7 @@ export default function Home() {
           </div>
           <div className="about-img-wrap">
             <img
-              src="images/Cow-and-calf-SKL.png"
+              src="/images/Cow-and-calf-SKL.png"
               alt="SK Livestock — Cattle, cow and calf — live animals for sale in Pakistan"
               className="about-img"
               width="600"
@@ -1308,7 +1308,7 @@ export default function Home() {
           </div>
           <div className="keyfeatures-img">
             <img
-              src="images/connecting-opt.jpg"
+              src="/images/connecting-opt.jpg"
               alt="SK Livestock App — Connecting livestock buyers and sellers across Pakistan"
               width="400"
               height="700"
@@ -1343,7 +1343,7 @@ export default function Home() {
                 SK Livestock centralizes your livestock trading in Pakistan, giving you full control over listings, buyers, and sellers. Simplify your routines and get real-time insights to guide better decisions — whether trading goats, cows, or buffaloes.
               </p>
               <img
-                src="images/market-hd-opt.jpg"
+                src="/images/market-hd-opt.jpg"
                 alt="SK Livestock — Live livestock market Pakistan — buy and sell animals online"
                 className="hiw-step-img"
                 width="320"
@@ -1364,7 +1364,7 @@ export default function Home() {
                 Monitor, analyze, and optimize every livestock transaction through SK Livestock's intuitive interface. Gain deeper insights, connect with buyers and sellers across Pakistan, and experience total marketplace harmony.
               </p>
               <img
-                src="images/supply-opt.jpg"
+                src="/images/supply-opt.jpg"
                 alt="SK Livestock — Livestock supply and demand Pakistan — animals market"
                 className="hiw-step-img"
                 width="320"
@@ -1385,7 +1385,7 @@ export default function Home() {
                 From automating daily tasks to ensuring precise, real-time insights, SK Livestock helps farmers, traders and buyers stay accurate, efficient, and fully in control of their livestock trading operations across Pakistan.
               </p>
               <img
-                src="images/demand-details-opt.jpg"
+                src="/images/demand-details-opt.jpg"
                 alt="SK Livestock — Livestock demand details — create and view animal demand in Pakistan"
                 className="hiw-step-img"
                 width="320"
@@ -1549,7 +1549,7 @@ export default function Home() {
               Get In Touch
             </a>
             <img
-              src="images/SKL-Vertical-logo.png"
+              src="/images/SKL-Vertical-logo.png"
               alt="SK Livestock — Pakistan's #1 Livestock Marketplace"
               className="footer-logo"
               width="120"
