@@ -27,9 +27,9 @@ export const SEO_TOPICS: SeoTopic[] = [
   {
     slug: "livestock-pakistan",
     title: "Livestock Pakistan",
-    metaTitle: "Livestock Pakistan | Buy & Sell Animals Online | SK Livestock",
+    metaTitle: "Livestock Pakistan | Buy & Sell Animals Online",
     description:
-      "Buy and sell livestock online in Pakistan with SK Livestock. Find goats, cows, buffaloes, camels, sheep, qurbani animals, wanda, dairy equipment, and veterinary consultancy.",
+      "Buy and sell goats, cows, buffaloes, camels, sheep, and qurbani animals online in Pakistan. Find verified livestock listings, feed, and veterinary help at SK Livestock.",
     h1: "Livestock Pakistan: buy and sell animals online",
     intro:
       "SK Livestock is a trusted digital marketplace for Pakistan's livestock community. Farmers, traders, exporters, butchers, dairy operators, and families can use the app to find live animals, qurbani animals, animal feed, dairy equipment, and expert consultancy.",
@@ -79,9 +79,9 @@ export const SEO_TOPICS: SeoTopic[] = [
   {
     slug: "goat-bakra-pakistan",
     title: "Goat and Bakra Pakistan",
-    metaTitle: "Goat & Bakra for Sale in Pakistan | Buy Online | SK Livestock",
+    metaTitle: "Goat & Bakra for Sale in Pakistan | SK Livestock",
     description:
-      "Find bakra, bakri, goat, dumba, and sheep listings in Pakistan on SK Livestock. Buy and sell goats online for farming, meat, breeding, dairy, and qurbani.",
+      "Browse verified bakra and goat listings in Pakistan. Buy goats, bakri, dumba, and sheep online for qurbani, breeding, dairy, and farm use.",
     h1: "Goat and bakra for sale in Pakistan",
     intro:
       "Looking for bakra online in Pakistan? SK Livestock connects goat buyers with sellers across Pakistan, including listings for bakra, bakri, sheep, dumba, qurbani goats, breeders, and farm animals.",
@@ -131,9 +131,9 @@ export const SEO_TOPICS: SeoTopic[] = [
   {
     slug: "qurbani-animals-pakistan",
     title: "Qurbani Animals Pakistan",
-    metaTitle: "Qurbani Animals Online in Pakistan | Bakra, Cow, Camel | SK Livestock",
+    metaTitle: "Qurbani Animals in Pakistan | Buy Online | SK Livestock",
     description:
-      "Find qurbani animals online in Pakistan. Buy and sell qurbani bakra, cow, bull, camel, sheep, and goats through SK Livestock.",
+      "Buy qurbani bakra, cows, camels, sheep, and goats in Pakistan. Compare listings and connect directly with trusted sellers on SK Livestock.",
     h1: "Qurbani animals online in Pakistan",
     intro:
       "SK Livestock helps users find qurbani animals before Eid ul Adha without depending only on crowded animal markets. Buyers can browse sellers and sellers can post qurbani goats, cows, bulls, camels, and sheep.",
@@ -183,9 +183,9 @@ export const SEO_TOPICS: SeoTopic[] = [
   {
     slug: "cattle-cow-buffalo-pakistan",
     title: "Cattle, Cow and Buffalo Pakistan",
-    metaTitle: "Cow, Cattle & Buffalo for Sale in Pakistan | SK Livestock",
+    metaTitle: "Cow, Cattle & Buffalo in Pakistan | SK Livestock",
     description:
-      "Buy and sell cows, bulls, cattle, buffaloes, milking animals, and pregnant animals online in Pakistan with SK Livestock.",
+      "Find verified cow, cattle, buffalo, and milking animal listings in Pakistan. Buy and sell livestock online with SK Livestock.",
     h1: "Cow, cattle, and buffalo for sale in Pakistan",
     intro:
       "SK Livestock gives Pakistan's cattle and dairy community a digital place to trade cows, bulls, buffaloes, milking animals, pregnant animals, meat animals, and dairy equipment.",
@@ -235,9 +235,9 @@ export const SEO_TOPICS: SeoTopic[] = [
   {
     slug: "wanda-animal-feed-pakistan",
     title: "Wanda and Animal Feed Pakistan",
-    metaTitle: "Wanda & Animal Feed in Pakistan | Livestock Nutrition | SK Livestock",
+    metaTitle: "Wanda & Animal Feed Pakistan | SK Livestock",
     description:
-      "Buy and sell wanda, forages, feed additives, and livestock nutrition products in Pakistan through SK Livestock.",
+      "Find wanda, animal feed, forages, and livestock nutrition products in Pakistan. Buy quality feed and connect with trusted sellers on SK Livestock.",
     h1: "Wanda and animal feed in Pakistan",
     intro:
       "SK Livestock supports more than animal buying and selling. The platform also helps Pakistan's farmers and suppliers trade wanda, forages, feed additives, and nutrition products for goats, cows, buffaloes, camels, and sheep.",
@@ -287,9 +287,9 @@ export const SEO_TOPICS: SeoTopic[] = [
   {
     slug: "veterinary-consultancy-pakistan",
     title: "Veterinary Consultancy Pakistan",
-    metaTitle: "Veterinary Consultancy for Livestock in Pakistan | SK Livestock",
+    metaTitle: "Veterinary Consultancy Pakistan | SK Livestock",
     description:
-      "Find veterinary doctors and nutritionists for livestock health, feeding, vaccination, and farm guidance in Pakistan with SK Livestock.",
+      "Connect with livestock vets and nutritionists in Pakistan for feeding, animal health, vaccination, and farm guidance through SK Livestock.",
     h1: "Veterinary consultancy for livestock in Pakistan",
     intro:
       "SK Livestock helps farmers and livestock owners connect with veterinary doctors and nutritionists for animal health, nutrition, vaccination awareness, feeding guidance, and farm management support.",

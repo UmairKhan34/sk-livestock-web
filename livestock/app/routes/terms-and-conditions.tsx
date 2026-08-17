@@ -7,8 +7,8 @@ export const links: Route.LinksFunction = () => [
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Terms & Conditions — SK Livestock" },
-    { name: "description", content: "Terms and Conditions for S.K Livestock app and website." },
+    { title: "Terms & Conditions | SK Livestock Pakistan" },
+    { name: "description", content: "Read the SK Livestock terms and conditions for the website, app, livestock marketplace, and user agreements." },
     { name: "robots", content: "index, follow" },
   ];
 }

@@ -119,9 +119,20 @@ export default function SeoTopicPage() {
       </nav>
 
       <article className="seo-article">
+        <nav className="seo-breadcrumbs" aria-label="Breadcrumb">
+          <Link to="/">Home</Link>
+          <span aria-hidden="true">/</span>
+          <span>{topic.title}</span>
+        </nav>
+
         <p className="seo-kicker">SK Livestock Pakistan</p>
         <h1>{topic.h1}</h1>
         <p className="seo-intro">{topic.intro}</p>
+
+        <div className="seo-trust-box" aria-label="About SK Livestock editorial trust">
+          <strong>SK Livestock team</strong>
+          <span>Verified marketplace information for Pakistan's livestock buyers and sellers.</span>
+        </div>
 
         <div className="seo-actions">
           <a href={APP_URL} target="_blank" rel="noreferrer" className="seo-action-primary">

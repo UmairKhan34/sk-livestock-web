@@ -1485,6 +1485,43 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   padding: 42px 28px 90px;
 }
 
+.seo-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+  color: rgba(35,31,32,0.64);
+  font-size: 0.92rem;
+}
+
+.seo-breadcrumbs a {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.seo-trust-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 20px 0 28px;
+  padding: 16px 18px;
+  border: 1px solid var(--gray-line);
+  border-left: 4px solid var(--red);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.7);
+}
+
+.seo-trust-box strong {
+  font-family: var(--font-head);
+  font-size: 1rem;
+}
+
+.seo-trust-box span {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 .seo-kicker {
   font-family: var(--font-head);
   font-weight: 800;

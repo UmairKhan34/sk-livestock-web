@@ -14,13 +14,12 @@ export function meta({}: Route.MetaArgs) {
   return [
     // ── Primary SEO ──────────────────────────────────────────────────────────
     {
-      title:
-        "SK Livestock — Pakistan's #1 Livestock Marketplace | Buy & Sell Bakra, Goat, Cow, Buffalo Online",
+      title: "SK Livestock | Buy & Sell Livestock in Pakistan",
     },
     {
       name: "description",
       content:
-        "SK Livestock is Pakistan's first trusted digital livestock marketplace. Buy & sell bakra, goat, cow, buffalo, camel, sheep, qurbani animals online. Get halal meat, wanda, dairy equipment & vet consultancy. Free app — Android & iOS.",
+        "Buy and sell goats, cows, buffaloes, camels, sheep, and qurbani animals online in Pakistan with SK Livestock. Explore vetted listings, market insights, and veterinary support.",
     },
     {
       name: "keywords",
@@ -34,6 +33,7 @@ export function meta({}: Route.MetaArgs) {
     // ── Author / Publisher ───────────────────────────────────────────────────
     { name: "author", content: "SK Livestock" },
     { name: "publisher", content: "SK Livestock" },
+    { name: "article:author", content: "SK Livestock" },
     { name: "copyright", content: "© 2026 SK Livestock. All rights reserved." },
 
     // ── Geo / Regional ───────────────────────────────────────────────────────

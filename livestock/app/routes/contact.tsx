@@ -8,8 +8,8 @@ export const links: Route.LinksFunction = () => [
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Contact SK Livestock" },
-    { name: "description", content: "Contact SK Livestock customer care for buying, selling, and livestock marketplace support." },
+    { title: "Contact SK Livestock | Pakistan Livestock Market" },
+    { name: "description", content: "Get in touch with SK Livestock for livestock buying, selling, marketplace support, and customer care in Pakistan." },
     { name: "robots", content: "index, follow" },
   ];
 }
