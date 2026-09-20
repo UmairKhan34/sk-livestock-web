@@ -17,7 +17,10 @@ export default function PrivacyPolicy() {
   return (
     <div className="policy-page">
       <div className="policy-inner">
-        <a href="/" className="policy-back">← Back to Home</a>
+        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginBottom: "20px" }}>
+          <a href="/" className="policy-back">← Back to Home</a>
+          <a href="/rider-privacy-policy" className="policy-back">Rider Privacy Policy</a>
+        </div>
 
         <h1 className="policy-title">Privacy Policy</h1>
         <p className="policy-updated">Last Updated: February 4, 2026</p>

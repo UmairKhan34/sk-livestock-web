@@ -1591,6 +1591,12 @@ export default function Home() {
               <a href="/privacy-policy" className="footer-link">
                 Privacy Policy
               </a>
+              <a href="/rider-privacy-policy" className="footer-link">
+                Rider Privacy Policy
+              </a>
+              <a href="/rider-terms-and-conditions" className="footer-link">
+                Rider Terms &amp; Conditions
+              </a>
               <a href="/data-deletion" className="footer-link">
                 Data Deletion
               </a>

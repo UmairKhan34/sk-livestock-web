@@ -26,6 +26,8 @@ export default function Footer() {
               <a href="/#faq" className="footer-link">FAQ</a>
               <a href="/contact" className="footer-link">Contact Us</a>
               <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
+              <a href="/rider-privacy-policy" className="footer-link">Rider Privacy Policy</a>
+              <a href="/rider-terms-and-conditions" className="footer-link">Rider Terms &amp; Conditions</a>
               <a href="/terms-and-conditions" className="footer-link">Terms &amp; Conditions</a>
               <a href="/data-deletion" className="footer-link">Data Deletion</a>
             </nav>
